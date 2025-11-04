@@ -2,11 +2,9 @@ name: Generate pacman animation
 
 on:
   schedule:
-    # Runs at 00:00 and 12:00 UTC every day
     - cron: "0 */12 * * *"
   workflow_dispatch:
-    # Allows you to run this workflow manually from the Actions tab
-
+  
 jobs:
   generate:
     permissions:
@@ -15,21 +13,18 @@ jobs:
     timeout-minutes: 5
 
     steps:
-      # Step 1: Check out your repository
       - name: Check out repository
         uses: actions/checkout@v4
 
-      # Step 2: Generate the Pacman SVG
       - name: Generate pacman-contribution-graph.svg
         uses: abozanona/pacman-contribution-graph@main
         with:
           github_user_name: ${{ github.repository_owner }}
 
-      # Step 3: Commit the new SVG file
       - name: Commit and push the updated SVG
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "chore: update pacman contribution graph"
-          file_pattern: pacman-contribution-graph.svg
+          file_pattern: dist/*
           commit_user_name: "GitHub Actions Bot"
           commit_user_email: "actions@github.com"
