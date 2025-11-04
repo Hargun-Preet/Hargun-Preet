@@ -88,7 +88,7 @@
 </p>
 
 <p align="center">
-  <a href="[https://www.linkedin.com/in/Hargun-Preet](https://www.linkedin.com/in/hargun-preet-singh-964224282/)" target="_blank">
+  <a href="[https://www.linkedin.com/in/hargun-preet-singh-964224282/](https://www.linkedin.com/in/hargun-preet-singh-964224282/)" target="_blank">
     <img src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn"/>
   </a>
   <a href="mailto:Singhhargun077@gmail.com" target="_blank">
