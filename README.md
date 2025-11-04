@@ -20,7 +20,11 @@
 </p>
 
 <p align="center">
-  <img src="pacman-contribution-graph.svg" alt="Pacman Contribution Graph" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="dist/pacman-contribution-graph-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="dist/pacman-contribution-graph.svg">
+    <img alt="Pacman Contribution Graph" src="dist/pacman-contribution-graph.svg">
+  </picture>
 </p>
 
 
