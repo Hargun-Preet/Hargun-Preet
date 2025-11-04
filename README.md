@@ -9,15 +9,22 @@
   [![Typing SVG](https://readme-typing-svg.demolab.com?font=Doto&size=32&pause=1000&color=FFFFFF&center=true&vCenter=true&width=800&lines=Hi+👋,+I'm+Hargun+Preet+Singh!;💻+Full+Stack+Developer;🤖+AI+%26+ML+Enthusiast;🚀+Crafting+Digital+Experiences!)](https://git.io/typing-svg)
 </div>
 
-<p align="center">
-  🎓 I'm a 3rd-year IT student at <b>IIIT Allahabad</b>.
-  <br>
-  💡 I build intuitive, high-performance solutions that solve real needs.
-  <br><br>
-  ✨ My passions lie in <b>modern front-end development</b>, <b>algorithms</b>, and <b>AI/ML</b>.
-  <br><br>
-  <i>🤝 I'm always learning, always building, and always open to connecting.</i>
-</p>
+<div align="center">
+  <p align="center">
+    🎓 I'm a 3rd-year IT student at <b>IIIT Allahabad</b>.
+    <br>
+    💡 I build intuitive, high-performance solutions that solve real needs.
+    <br><br>
+    ✨ My passions lie in <b>modern front-end development</b>, <b>algorithms</b>, and <b>AI/ML</b>.
+    <br><br>
+    <i>🤝 I'm always learning, always building, and always open to connecting.</i>
+  </p>
+  
+  <h3 align="center">Profile Views</h3>
+  <p align="center">
+    <img src="https://count.getloli.com/@:Hargun-Preet?name=Hargun-Preet&theme=3d-num&padding=5&offset=0&align=center&scale=1&pixelated=1&darkmode=1"/>
+  </p>
+</div>
 
 <p align="center">
   <picture>
@@ -90,13 +97,14 @@
   <a href="https://leetcode.com/hargun_preet/" target="_blank">
     <img src="https://img.shields.io/badge/-%20-111111?style=flat-square&logo=leetcode&logoColor=FFA116" width="60" height="60" alt="LeetCode"/>
   </a>
-  <a href="https://www.codechef.com/users/hargun-preet" target="_blank">
+  <a href="https://www.codechef.com/users/hargun_preet" target="_blank">
     <img src="https://img.icons8.com/?size=100&id=vAtJFm3hwtQw&format=png&color=FFFFFF" width="44" height="44" alt="CodeChef"/>
   </a>
-  <a href="https://codeforces.com/profile/hargun_preet" target="_blank">
+  <a href="https://codeforces.com/profile/hargun-preet" target="_blank">
     <img src="https://img.icons8.com/?size=100&id=jldAN67IAsrW&format=png&color=000000" width="44" height="44" alt="Codeforces"/>
   </a>
 </p>
+
 
 <div align="center">
 <img src="https://user-images.githubusercontent.com/74038190/226127923-0e8b7792-7b3c-462b-951b-63c96ba1a5af.gif" width="50"/>
