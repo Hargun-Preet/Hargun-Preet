@@ -15,7 +15,7 @@
     <br>
     💡 I build intuitive, high-performance solutions that solve real needs.
     <br><br>
-    ✨ My passions lie in <b>modern front-end development</b>, <b>algorithms</b>, and <b>AI/ML</b>.
+    ✨ My passions lie in <b>modern full stack development</b>, <b>algorithms</b>, and <b>AI/ML</b>.
     <br><br>
     <i>🤝 I'm always learning, always building, and always open to connecting.</i>
   </p>
