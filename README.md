@@ -28,11 +28,12 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="dist/pacman-contribution-graph-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="dist/pacman-contribution-graph.svg">
-    <img alt="Pacman Contribution Graph" src="dist/pacman-contribution-graph.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Hargun-Preet/Hargun-Preet/assets/dist/pacman-contribution-graph-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Hargun-Preet/Hargun-Preet/assets/dist/pacman-contribution-graph.svg">
+    <img alt="Pacman Contribution Graph" src="https://raw.githubusercontent.com/<your-username>/<repo-name>/assets/dist/pacman-contribution-graph.svg">
   </picture>
 </p>
+
 
 
 <p align="center">
