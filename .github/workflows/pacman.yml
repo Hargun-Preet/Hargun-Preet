@@ -30,3 +30,4 @@ jobs:
           create_branch: true
           commit_user_name: "GitHub Action Bot"
           commit_user_email: "41898282+github-actions[bot]@users.noreply.github.com"
+          rebase: true
