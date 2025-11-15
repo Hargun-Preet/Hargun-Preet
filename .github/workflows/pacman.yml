@@ -11,7 +11,6 @@ jobs:
       contents: write
     runs-on: ubuntu-latest
     timeout-minutes: 5
-
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
@@ -21,13 +20,33 @@ jobs:
         with:
           github_user_name: ${{ github.repository_owner }}
 
-      - name: Commit and push the updated SVG to assets branch
+      # -----------------------------------------------------------------
+      # FIX: Stash new files, checkout/pull assets branch, pop stash
+      # -----------------------------------------------------------------
+      - name: Prepare assets branch
+        run: |
+          # 1. Stash the newly created dist/* files
+          git stash
+          
+          # 2. Fetch the assets branch and check it out
+          # (create it if it doesn't exist locally)
+          git fetch origin assets || true
+          git checkout assets || git checkout -b assets
+          
+          # 3. Pull the latest changes from the remote branch
+          git pull origin assets --rebase
+          
+          # 4. Re-apply the stashed files (dist/*) on top
+          git stash pop
+
+      # -----------------------------------------------------------------
+      # Your original commit step, with invalid inputs removed
+      # -----------------------------------------------------------------
+      - name: Commit and push changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "chore: update pacman contribution graph"
-          file_pattern: dist/*
+          file_pattern: "dist/*.svg" # Use .svg to be specific
           branch: assets
-          create_branch: true
           commit_user_name: "GitHub Action Bot"
           commit_user_email: "41898282+github-actions[bot]@users.noreply.github.com"
-          rebase: true
