@@ -58,5 +58,5 @@ jobs:
           fi
           
           # Commit and push
-          git commit -m "chore: update pacman contribution graph"
+          git commit -m "chore: update pacman contribution graph [skip ci]"
           git push
